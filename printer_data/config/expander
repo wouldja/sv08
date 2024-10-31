@@ -10,6 +10,8 @@ gcode_id: Chamber
 pins: !klipper_expander:PA4
 
 [output_pin mosfet0]
-pin: klipper_expander:PA0
-max_power: 1.0
+pin: expander:PA0
+pwm: true
+cycle_time: 0.010
+value: 0
 shutdown_value: 0
