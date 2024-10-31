@@ -11,5 +11,5 @@ pins: !klipper_expander:PA4
 
 [output_pin mosfet0]
 pin: klipper_expander:PA0
-value: 0
+max_power: 1.0
 shutdown_value: 0
