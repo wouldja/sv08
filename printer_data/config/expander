@@ -10,7 +10,7 @@ gcode_id: Chamber
 pins: !klipper_expander:PA4
 
 [output_pin mosfet0]
-pin: expander:PA0
+pin: klipper_expander:PA0
 pwm: true
 cycle_time: 0.010
 value: 0
