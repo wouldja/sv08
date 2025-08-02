@@ -1,6 +1,3 @@
-[force_move]
-enable_force_move: true
-
 [include mainsail.cfg]
 [include macros.cfg]
 ;[include macro.cfg]
@@ -282,11 +279,11 @@ z_offset = 1.393
 #z_offset: 0
 #speed: 1.0
 
-#[z_offset_calibration]
-#center_xy_position: 191,165
-#endstop_xy_position: 289,361
-#z_hop: 10
-#z_hop_speed: 15
+[z_offset_calibration]
+center_xy_position: 191,165
+endstop_xy_position: 289,361
+z_hop: 10
+z_hop_speed: 15
 
 [quad_gantry_level]
 gantry_corners:
