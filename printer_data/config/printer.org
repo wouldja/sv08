@@ -49,7 +49,7 @@ microsteps: 16
 full_steps_per_rotation:200   
 endstop_pin: tmc2209_stepper_x: virtual_endstop              
 position_min: 0               
-position_endstop: 355         
+position_endstop: 354         
 position_max: 355             
 homing_speed: 30              
 homing_retract_dist: 0        
